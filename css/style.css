@@ -1,0 +1,37 @@
+*{
+    text-align: center;
+    margin: auto;
+}
+
+body {background-color: rgb(3, 12, 73); color:white}
+
+.cell {width:40px; height:40px;text-align: center}
+.cell img {width:30px; height:auto}
+.floor {background-color: rgb(208, 166, 166)}
+.wall {background-color: rgb(103, 37, 37)}
+.target {background-color: rgb(252, 107, 107)}
+
+p {
+    margin-top: 18px;
+    font-size: 30px;
+    color: rgb(24, 24, 68);
+    background-color: chartreuse;
+    max-width: 400px;
+    padding: 5px;
+}
+
+
+button{
+    font-size: larger;
+    margin: 18px;
+    background-color: aquamarine;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+
+
+h2 {max-width: 830px;}
+
